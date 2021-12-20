@@ -4,7 +4,7 @@ Get the current BTC price in deno
 # How to use ?
 
 ## Use: 
-`deno run -A --unstable --no-check https://deno.land/x/bitcoin@0.0.1/exemple.ts`
+`deno run -A --unstable --no-check https://deno.land/x/bitcoin@beta/exemple.ts`
 
 ## Or
 See exemple.ts file
