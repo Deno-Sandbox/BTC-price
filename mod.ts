@@ -1,6 +1,6 @@
 let currencyRequest = "EUR"
 
-export class Snow_BTCPRICE {
+export class BTC {
 
     constructor(currency?:string){
         if(currency){
@@ -23,5 +23,9 @@ export class Snow_BTCPRICE {
 
     setCurreny(currency:string){
         currencyRequest = currency;
+    }
+
+    async satoshi(){
+        console.log(Deno.readTextFileSync('./btc.ascii'))
     }
 }
